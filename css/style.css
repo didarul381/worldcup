@@ -60,7 +60,8 @@ main{
 }
 
 #banner-scetion aside{
-    
+    margin-right: 6%;
+    margin-top: 1%;
     margin-bottom:-5.5%;
 }
 .banner-arcticle a{
@@ -155,6 +156,7 @@ main{
  }
  .card-imge {
     width:700px;
+    margin-right: 5%;
  }
  .card-imge img{
     width: 100%;
@@ -164,7 +166,7 @@ main{
 
 /* blog section end */
 footer{
-     width: 90%;
+    width: 90%;
     background-color: black;
     margin: 0 auto;
     min-height: 15vh;
@@ -208,7 +210,7 @@ hr{
 
 /* for phone */
 @media only screen and (max-width: 600px){
-    .container{
+    .container footer{
         width: 100%;
        
     }
@@ -305,7 +307,7 @@ hr{
 
 @media only screen and (min-width:688px) and (max-width:992px){
 
-    .container{
+    .container footer{ 
         width: 100%;
     }
     #banner-scetion aside{
